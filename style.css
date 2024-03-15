@@ -62,8 +62,8 @@ i{
 }
 .container1-rightside{
     width: 300px;
-    /* display: flex;
-    align-items: center; */
+    display: flex;
+    align-items: center;
     justify-content: space-between;
     margin-right: 20px;
 }
@@ -81,7 +81,7 @@ i{
     border: none;
 }
 .container2{
-    width: 500px;
+    /* width: 500px; */
     margin: 0px auto;
     margin-top: 80px;
     display: flex;
@@ -89,7 +89,9 @@ i{
 }
 
 .container2-leftside{
-    
+    width: 550px;
+    /* border: 1px solid white     ; */
+    margin: 0px 20px;
     
 }
 .users-trust{
@@ -134,7 +136,11 @@ i{
 .scannner-logo-image{
     color: var(--white);
 }
-.container1-rightside-1st-row{
+.container2-rightside{
+    width: 550px;
+    margin: 0px 20px;
+}
+.container2-rightside-1st-row{
     /* display: flex;
     justify-content: space-between; */
     width: 550px;
@@ -164,7 +170,7 @@ i{
     list-style: none; */
     
 }
-.container1-rightside-1st-row-1st-column-logo{
+.container2-rightside-1st-row-1st-column-logo{
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -187,10 +193,25 @@ i{
 tr,td{
     /* border: 2px solid white; */
 }
-.container1-rightside-2nd-row{
-    width: 550;
-    background-color: var(--yellow) !important;
+.container2-rightside-2nd-row{
+    width: 500;
+    /* border: 1px solid white; */
 }
 .para{
     font-size: large;
+    margin: 20px 20px;
+}
+.container2-rightside-3rd-row{
+    /* border: 1px solid white; */
+}
+.row3-para{
+    padding: 20px 20px;
+    font-weight: bold;
+}
+.row3-table{
+    margin: 0px 20px;
+}
+.row3-table-data{
+    width: 60px;
+    /* border: 1px solid white; */
 }
